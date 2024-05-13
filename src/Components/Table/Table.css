@@ -13,6 +13,7 @@
     max-width: 80%;
     margin:auto;
     overflow-x: auto;
+    margin-top: 30px;
 }
 .table thead tr{
     background-color:grey;
@@ -50,3 +51,8 @@
 .App h1{
     color:grey;
 }
+.search-form{
+
+    max-width:50%;
+    margin-bottom:30px;
+ }

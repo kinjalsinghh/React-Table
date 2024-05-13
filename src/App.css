@@ -7,14 +7,23 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(180deg,#E493B3,lightyellow);
+  gap:30px;
 }
 .create-btn{
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 Button{
   border-radius: 10px;
   height:50px;
   width:100px;
   color: white;
+}
+
+.loader-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  margin-top:50px;
 }
