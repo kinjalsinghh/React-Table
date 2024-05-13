@@ -5,7 +5,6 @@ const LoaderButton = ({ text, loadingTime, intervalTime }) => {
 
   useEffect(() => {
     let timer;
-
     if (loadingTime) {
       timer = setTimeout(() => {
         setLoading(false);
@@ -17,12 +16,10 @@ const LoaderButton = ({ text, loadingTime, intervalTime }) => {
 
   useEffect(() => {
     let interval;
-
     if (intervalTime) {
       interval = setInterval(() => {
         setLoading(true);
-
-        setTimeout(() => {
+         setTimeout(() => {
           setLoading(false);
         }, loadingTime);
       }, intervalTime);
@@ -33,8 +30,7 @@ const LoaderButton = ({ text, loadingTime, intervalTime }) => {
 
   const handleClick = () => {
     setLoading(true);
-
-    setTimeout(() => {
+     setTimeout(() => {
       setLoading(false);
     }, loadingTime);
   };
